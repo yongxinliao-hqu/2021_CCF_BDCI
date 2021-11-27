@@ -1,18 +1,33 @@
 # 2021 CCF BDCI 千言-问题匹配鲁棒性评测-第12名方案
-> 一个好的标题会让你的开源项目发挥更大的价值，想不出好的名字也不用担心，起名时就统一使用AIStudio-xxx做开头吧~
 
 ## 项目描述
-> 此处可以简要描述项目的“发家史”，例如它是做什么的？它有什么特点？
+
+赛题名称：千言-问题匹配鲁棒性评测
+
+赛题背景：问题匹配（Question Matching）任务旨在判断两个自然问句之间的语义是否等价，是自然语言处理领域的一个重要研究方向。问题匹配同时也具有很高的商业价值，在信息检索、智能客服等领域发挥着重要作用。近年来，虽然基于深度神经网络的模型已经在一些问题匹配评测集上取得了与人类相仿甚至超越人类的效果，但在处理真实应用场景中的问题时仍面临鲁棒性不足等问题。当存在微小的字面变化时，模型将无法做出正确判断，在影响产品体验的同时也会造成相应的经济损失。
+
+使用工具：飞桨（PaddlePaddle
+
+
+## 总体思路
+
+![](https://ai-studio-static-online.cdn.bcebos.com/374e805058c74317829f2ea818731f456ad4bfdc79fb40349cf1e2cd5004a54a)
 
 ## 项目结构
-> 一目了然的项目结构能帮助更多人了解，目录树以及设计思想都很重要~
-```
--|data
+
+-|cixing
+-|common_data
+-|predict_results
+-|saved_models
 -|work
 -README.MD
--xxx.ipynb
-```
+-main.ipynb
+-data.py
+-model.py
+-predict.py
+-train.py
+
 ## 使用方式
-> 相信你的Fans已经看到这里了，快告诉他们如何快速上手这个项目吧~  
-A：在AI Studio上[运行本项目](https://aistudio.baidu.com/aistudio/usercenter)  
-B：此处由项目作者进行撰写使用方式。
+A：在AI Studio上[运行本项目](https://aistudio.baidu.com/aistudio/projectdetail/2384565)  
+B：逐步运行即可，部分步骤较为耗时（已在项目总体思路中标注）。
+
