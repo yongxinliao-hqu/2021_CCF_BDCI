@@ -14,29 +14,19 @@
 ![](https://ai-studio-static-online.cdn.bcebos.com/374e805058c74317829f2ea818731f456ad4bfdc79fb40349cf1e2cd5004a54a)
 
 ## 项目结构
-
+```
 -|cixing
-
 -|common_data
-
 -|predict_results
-
 -|saved_models (模型较大无法上传，已经公开在AIStudio平台中)
-
 -|work
-
 -README.MD
-
 -main.ipynb
-
 -data.py
-
 -model.py
-
 -predict.py
-
 -train.py
-
+```
 
 ## 使用方式
 A：在AI Studio上[运行本项目](https://aistudio.baidu.com/aistudio/projectdetail/2384565)  
